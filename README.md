@@ -4,6 +4,10 @@ A single, self-contained page that shows what a real-time voice agent actually d
 
 **Open `index.html` in a browser.** No build step, no dependencies, no network calls, no analytics.
 
+![Design preview](preview.svg)
+
+*`preview.svg` is a design rendering of the page, not a browser screenshot — see caveats at the end.*
+
 ## What is on the page
 
 | Section | What it demonstrates |
@@ -27,4 +31,4 @@ This repo is Pages-ready as-is: enable GitHub Pages on the `main` branch with th
 
 ## Caveats
 
-The transcript, the metrics and the tool call are illustrative. The microphone visualisation is real; nothing else is connected to a live agent.
+The transcript, the metrics and the tool call are illustrative. The microphone visualisation is real; nothing else is connected to a live agent. `preview.svg` reproduces the page's design by hand — it was not produced by rendering the page in a browser, so spacing and type will differ slightly from what you see when you open `index.html`.
